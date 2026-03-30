@@ -1,4 +1,4 @@
-package com.personal_projects.url_shortner.Util;
+package com.personal_projects.url_shortner.util;
 
 public class Base62 {
     private static final String CHARSET =

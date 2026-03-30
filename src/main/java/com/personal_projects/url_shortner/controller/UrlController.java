@@ -1,6 +1,6 @@
-package com.personal_projects.url_shortner.Controller;
+package com.personal_projects.url_shortner.controller;
 
-import com.personal_projects.url_shortner.Dto.CreateUrlRequest;
+import com.personal_projects.url_shortner.dto.CreateUrlRequest;
 import com.personal_projects.url_shortner.service.UrlService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;

@@ -13,4 +13,7 @@ public interface UrlRepository extends JpaRepository<Url, Long> {
 
     @Query("SELECT u FROM Url u WHERE u.shortCode = :code AND u.isActive = true")
     Optional<Url> findActiveUrl(@Param("code") String code);
+
+    @Query("SELECT u from Url u where u.longUrl=:longUrl AND u.isActive=true")
+    Optional<Url> findByLongUrl(String longUrl);
 }
